@@ -3,55 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | White Water Rafting Adventures</title>
-    <meta name="description" content="Discover our passion for the river. Learn about our expert guides, safety records, and why we have been delivering unforgettable whitewater rafting memories for over twenty years.">
-    <meta name="author" content="Your Full Name">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <title>About Us | Whitewater Rafting</title>
+    <link rel="stylesheet" href="rafting.css">
 </head>
 <body>
-
-    <header>
-        <img src="images/logo.jpeg.jpeg" alt="White Water Rafting Adventures branding featuring river and mountain elements" class="logo">
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="trips.html">Trips</a></li>
-                <li><a href="contact.html">Contact Us</a></li>
-            </ul>
+    <!-- HEADER with CSS Grid -->
+    <header class="header-grid">
+        <div class="logo">
+            <img src="images/logo.png" alt="Whitewater Rafting Logo">
+            <h1>Whitewater Adventures</h1>
+        </div>
+        <nav class="nav-flex">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact</a>
         </nav>
     </header>
 
-    
     <main>
-        <div class="hero">
-            <img src="images/hero.jpeg.jpeg" alt="Mountain river rapid with white water rushing around rocks in an outdoor adventure setting" class="hero-bg">
-            <h1>White Water Rafting Adventures</h1>
-            <article>
-                <img src="images/head.jpeg.jpeg" alt="Smiling rafter wearing a safety helmet and life vest conveying confidence in river adventure safety">
-                <p>Our mission is simple: to connect people with the raw majesty of wild rivers while maintaining uncompromised safety standards. We believe every rapid tells a story, and every splash creates a lasting memory. Whether you are a seasoned paddler or a first-timer, our creed is to guide you through an unforgettable adventure with passion and precision.</p>
-            </article>
-        </div>
-
-        <section class="history-section">
-            <h2>History</h2>
-            <p>Founded in 2005 by a small team of passionate river guides, White Water Rafting Adventures started with just two rafts and a van. Over the years, our dedication to exceptional guest experiences and strict eco-friendly practices allowed us to grow into the region's premier outfitter. Today, we manage over a dozen river stretches, but our core philosophy remains unchanged: respect the river, love the thrill, and cherish the community.</p>
+        <!-- Hero Section -->
+        <section class="hero">
+            <h2>Our Story</h2>
         </section>
 
-        <section class="adventure-section">
-            <h2>Adventure Awaits You!</h2>
-            <!-- Image content will be added in the next assignment -->
+        <!-- History Section -->
+        <section class="history">
+            <h2>Our History</h2>
+            <div class="history-content">
+                <p>Founded in 1995, Whitewater Adventures began with a small raft and a big dream on the Salmon River. What started as weekend trips for friends has grown into one of the most respected rafting companies in the Pacific Northwest.</p>
+                <p>Over the past 30 years, we've guided thousands of adventurers through some of the most thrilling rapids in North America while maintaining an unwavering commitment to safety and environmental stewardship.</p>
+            </div>
+        </section>
+
+        <!-- Adventures Section -->
+        <section class="adventures">
+            <h2>Popular Adventures</h2>
+            <div class="adventures-grid">
+                <figure>
+                    <img src="images/logo.jpeg.jpeg" alt="Los Dientes del Diablo">
+                    <figcaption>Los Dientes del Diablo</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/head.jpeg.jpeg" alt="Big Mallard">
+                    <figcaption>Big Mallard</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/hero.jpeg.jpeg" alt="Half Day Adventure">
+                    <figcaption>Half Day Adventure</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/head.jpeg.jpeg" alt="Full Day Thrill">
+                    <figcaption>Full Day Thrill</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/logo.jpeg.jpeg" alt="Multi-Day Expedition">
+                    <figcaption>Multi-Day Expedition</figcaption>
+                </figure>
+            </div>
         </section>
     </main>
 
+    <!-- FOOTER -->
     <footer>
-        <p>&copy; 2026 White Water Rafting Adventures | Melvin kofi Macaulay</p>
-        <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank"><img src="images/facebook-icon.png" alt="Facebook Icon"></a>
-            <a href="https://instagram.com" target="_blank"><img src="images/instagram-icon.png" alt="Instagram Icon"></a>
-            <a href="https://twitter.com" target="_blank"><img src="images/twitter-icon.png" alt="Twitter Icon"></a>
-        </nav>
+        <p>&copy; 2026 Whitewater Adventures | All Rights Reserved</p>
+        <div class="social">
+            <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
+        </div>
     </footer>
-
 </body>
 </html>
