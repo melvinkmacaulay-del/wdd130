@@ -3,94 +3,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Learn about our white water rafting company, our history, and the thrilling adventures that await you on the river.">
-    <meta name="author" content="Melvin Macaulay Kofi">
-    <title>About Us | White Water Rafting</title>
+    <meta name="description" content="Get in touch with White Water Rafting. Contact us for reservations, inquiries, or questions about our thrilling river adventures in Kolob, California.">
+    <title>Contact Us | White Water Rafting</title>
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
 <body>
     <header>
         <div class="header-container">
-            <!-- Logo -->
             <a href="index.html" class="logo">
-                <img src="images/rafting-logo.png.jpeg" alt="White Water Rafting Logo - Mountain and River">
+                <img src="images/rafting-logo.png.jpeg" alt="White Water Rafting Logo">
             </a>
-            
-            <!-- Navigation -->
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html" class="active">About Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="trips.html">Trips</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href="contact.html" class="active">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
     <main>
-        <!-- Hero Section -->
-        <div class="hero">
-            <h1>White Water Rafting</h1>
-            <div class="hero-content">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit amet elit iaculis pretium sit amet quis massa. Aenean velit nisl, elementum in fermentum id, vehicula eu nisl.</p>
-                <img src="images/hero.png.jpeg" alt="Rafting Adventure Icon" class="hero-icon">
+        <div class="contact-hero">
+            <h1>Contact Us</h1>
+        </div>
+
+        <div class="contact-container">
+            <!-- Company Info -->
+            <div class="company-info">
+                <h2>White Water Rafting Company</h2>
+                <p>123 Main River Street<br>
+                   Kolob, California 84741<br>
+                   <strong>Phone:</strong> +1 (999) 999-9999<br>
+                   <strong>Email:</strong> info@whitewater.com</p>
+                
+                <div class="map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.123456789!2d-112.345678!3d37.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDA3JzI0LjAiTiAxMTLCsDIwJzQ1LjAiVw!5e0!3m2!1sen!2sus!4v1234567890" 
+                            width="100%" height="300" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+
+            <!-- Contact Form -->
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <fieldset>
+                        <legend>Message Purpose</legend>
+                        <label>
+                            <input type="radio" name="purpose" value="general" checked> General Inquiry
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation"> Reservation Question
+                        </label>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+                        </label>
+                    </fieldset>
+                    
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="6" required></textarea>
+                    
+                    <label>
+                        <input type="checkbox" name="newsletter"> Please subscribe me to the monthly newsletter
+                    </label>
+                    
+                    <button type="submit">Get in Touch!</button>
+                </form>
             </div>
         </div>
 
-        <!-- History Section -->
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-grid">
-                <div class="history-text left">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum.</p>
-                </div>
-                
-                <figure class="history-image">
-                    <img src="images/history-hero.png.jpeg" alt="History of White Water Rafting">
-                    <figcaption>Our Journey</figcaption>
+        <!-- Team Section -->
+        <section class="team">
+            <h2>We Are Here to Serve You</h2>
+            <div class="team-grid">
+                <figure class="employee">
+                    <img src="images/employee1.jpg" alt="Jane Doe - Lead Guide">
+                    <figcaption>Jane Doe - Lead Guide</figcaption>
                 </figure>
-                
-                <div class="history-text right">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui.</p>
-                </div>
-            </div>
-        </section>
-
-        <!-- Adventures Section -->
-        <section class="adventures">
-            <h2>Adventure Awaits You</h2>
-            <div class="adventures-grid">
-                <figure>
-                    <img src="images/rapids1.jpg" alt="Los Dientes del Diablo Rapids">
-                    <figcaption>Los Dientes del Diablo</figcaption>
+                <figure class="employee">
+                    <img src="images/employee2.jpg" alt="John Smith - Safety Director">
+                    <figcaption>John Smith - Safety Director</figcaption>
                 </figure>
-                <figure>
-                    <img src="images/rapids2.jpg" alt="Big Mallard Rapids">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids3.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids4.jpg" alt="Full Day Thrill">
-                    <figcaption>Full Day Thrill</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/rapids5.jpg" alt="Family Fun Run">
-                    <figcaption>Family Fun Run</figcaption>
+                <figure class="employee">
+                    <img src="images/employee3.jpg" alt="Sarah Johnson - Trip Coordinator">
+                    <figcaption>Sarah Johnson - Trip Coordinator</figcaption>
                 </figure>
             </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2026 White Water Rafting | Melvin Macaulay Kofi</p>
+        <p>&copy; 2026 White Water Rafting</p>
         <nav class="socialmedia">
-            <a href="https://facebook.com" target="_blank"><img src="images/facebook.png.jpeg" alt="Facebook"></a>
-            <a href="https://instagram.com" target="_blank"><img src="images/instagram.png.jpeg" alt="Instagram"></a>
-            <a href="https://twitter.com" target="_blank"><img src="images/twitter.png.jpeg" alt="Twitter/X"></a>
+            <!--facebook.png.jpeg, twitter.png.jpeg, instagram.png.jpeg-->
         </nav>
     </footer>
 </body>
