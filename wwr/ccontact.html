@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Whitewater Adventures for reservations, trip inquiries, or general questions. We'd love to help plan your next river adventure.">
+  <meta name="author" content="Melvin Kofi Macaulay">
+  <title>Contact Us | Whitewater Adventures</title>
+  <link rel="stylesheet" href="rafting.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="index.html" class="logo">
+        <img src="images/logo.png" alt="Whitewater Adventures Logo">
+        <span>Whitewater Adventures</span>
+      </a>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="trips.html">Trips</a></li>
+          <li><a href="contact.html" class="active">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO SECTION -->
+    <div class="hero">
+      <img src="images/hero-rafting.jpg" alt="River guides ready to assist you" class="hero-bg">
+      <div class="hero-overlay"></div>
+      <div class="hero-text">
+        <h1>Contact Us</h1>
+        <p>We're here to help you plan your perfect river adventure</p>
+      </div>
+    </div>
+
+    <div class="page-content">
+
+      <!-- CONTACT LAYOUT: info + form -->
+      <div class="contact-layout">
+
+        <!-- Company Info -->
+        <div class="company-info">
+          <h2>Whitewater Adventures</h2>
+          <address>
+            123 River Canyon Road<br>
+            Salmon, Idaho 83467<br>
+            <strong>Phone:</strong> +1 (208) 555-0192<br>
+            <strong>Email:</strong> info@whitewateradventures.com
+          </address>
+
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3168.123456789!2d-112.345678!3d37.123456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDA3JzI0LjAiTiAxMTLCsDIwJzQ1LjAiVw!5e0!3m2!1sen!2sus!4v1234567890"
+              title="Map showing Whitewater Adventures location"
+              allowfullscreen=""
+              loading="lazy">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- Contact Form -->
+        <div class="contact-form">
+          <h2>Send Us a Message</h2>
+          <form action="#" method="post">
+
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+              <legend>Message Purpose</legend>
+              <label>
+                <input type="radio" name="purpose" value="general" checked> General Inquiry
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="reservation"> Reservation Question
+              </label>
+              <label>
+                <input type="radio" name="purpose" value="suggestion"> Website Suggestion
+              </label>
+            </fieldset>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required></textarea>
+
+            <label class="checkbox-label">
+              <input type="checkbox" name="newsletter"> Subscribe me to the monthly newsletter
+            </label>
+
+            <button type="submit">Get in Touch!</button>
+          </form>
+        </div>
+
+      </div><!-- end .contact-layout -->
+
+      <!-- TEAM SECTION -->
+      <section class="team">
+        <h2>We Are Here to Serve You</h2>
+        <div class="team-grid">
+          <figure>
+            <img src="images/employee1.jpg" alt="Jane Doe, Lead River Guide">
+            <figcaption>Jane Doe — Lead Guide</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee2.jpg" alt="John Smith, Safety Director">
+            <figcaption>John Smith — Safety Director</figcaption>
+          </figure>
+          <figure>
+            <img src="images/employee3.jpg" alt="Sarah Johnson, Trip Coordinator">
+            <figcaption>Sarah Johnson — Trip Coordinator</figcaption>
+          </figure>
+        </div>
+      </section>
+
+    </div><!-- end .page-content -->
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-inner">
+      <p>&copy; 2026 Whitewater Adventures | Melvin Kofi Macaulay</p>
+      <nav class="socialmedia" aria-label="Social media links">
+        <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/facebook.png" alt="Facebook">
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/instagram.png" alt="Instagram">
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer">
+          <img src="images/twitter.png" alt="Twitter">
+        </a>
+      </nav>
+    </div>
+  </footer>
+
+</body>
+</html>
